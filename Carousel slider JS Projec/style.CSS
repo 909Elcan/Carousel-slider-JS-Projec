@@ -1,0 +1,76 @@
+
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+
+.Container {
+    width: 50%;
+    max-width: 700px;
+}
+
+
+.PhotoManagement {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        gap: 11px;
+}
+
+.MainPhoto {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+
+    opacity: 0.6;
+    padding: 5px;
+    border-radius: 50%; 
+    background-color: rgba(0, 0, 0, 0.765); 
+}
+
+i:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+#left {
+    left: 15px; 
+}
+
+
+#right {
+    right: 15px; 
+}
+
+
+svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: block;
+}
+
+.Cars_IMG_List img{
+    width: 113px;
+    
+
+    border-radius: 7px;
+
+}

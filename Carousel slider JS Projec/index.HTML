@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Animate.css Kütüphanesi əlavə olundu -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.CSS">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="Container">
+        
+        <section class="PhotoManagement"
+        onmousemove="MouseMove()"
+        onmouseout="MouseOut()"
+        > 
+
+            <i id="left" onclick="left()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path fill="rgb(255,255,255)" d="m14 17l-5-5l5-5z" />
+                </svg>
+            </i>
+            
+            <!-- animate__animated sinfi əlavə edildi -->
+            <img class="MainPhoto animate__animated" src="images/1.jpg.png" alt="" id="myimg">
+
+           <i id="right" onclick="right()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path fill="rgb(255,255,255)" d="M10 17V7l5 5z" />
+            </svg>
+           </i>
+
+            <div class="Cars_IMG_List">
+                <img src="images/1.jpg.png" alt="">
+                <img src="images/2.jpg.png" alt="">
+                <img src="images/3.jpg.png" alt="">
+                <img src="images/4.jpg.png" alt="">
+                <img src="images/5.jpg.png" alt="">
+                <img src="images/6.jpg.png" alt="">
+            </div>
+
+        </section>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
